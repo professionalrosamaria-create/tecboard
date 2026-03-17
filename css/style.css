@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilo Desktop*/
+
+h1, p, a {color: #FFFFFF; }
+span {color: #9747FF;}
+
+body {background-color: #0E1014;}
+
+header img{
+    margin: 75px 0 0 360px;
+    display: block;
+}
+
+h1{
+    font-size: 64px;
+    font-family: poppins, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    margin-top: 60px;
+    
+}
+p{
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    width: 792px;
+}
+
+a{
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #9747FF;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
+}
+
+a:hover{
+background-color:#8233E8
+}
+
+main{
+    display: block;
+    width: 792px;
+    height: 446px;
+    margin: 0px auto;
+}
+
+
+@media(max-widht: 768px){
+
+}
